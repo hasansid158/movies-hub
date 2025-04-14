@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hasansid.movieshub"
     },
     "androidStatusBar": {
       "backgroundColor": "#151312",
@@ -41,6 +42,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d14a13e4-6279-4f8d-8f8f-9887c8e50c23"
+      }
+    },
+    "owner": "hasansid"
   }
 }
